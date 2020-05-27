@@ -18,7 +18,6 @@ function multiply(number1, number2) {
 }
 console.log(multiply(6, 4))
 
-
 //Power
 
 function power(x, n) {
@@ -54,8 +53,10 @@ function fibonacci(n) {
         let number2 = array[add(index, -2)]
         let total = add(number1, number2)
         array.push(total)
-        console.log(array)
+        // console.log(array)
     }
     return array[add(n, -1)]
 }
 console.log(fibonacci(8))
+
+
